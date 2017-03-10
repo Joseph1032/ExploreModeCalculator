@@ -1,0 +1,24 @@
+body {
+	padding:20px;
+}
+button {
+  background:skyblue;
+  
+}
+.buttons {
+	margin-left: 83px;
+	margin-top: 5px;
+}
+input {
+  background:silver;
+  height:20px;
+}
+::-webkit-input-placeholder {
+  color:gray;
+  font-weight:lighter;
+  text-align:center;
+  line-height: 20px;
+}
+input:focus::-webkit-input-placeholder { 
+	color:transparent; 
+}
