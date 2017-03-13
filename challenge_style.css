@@ -1,0 +1,50 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	padding:100px;
+	padding-right: 900px;
+	margin:-60px;
+}
+#clear {
+	background: rgb(59,187,77);
+	border:1px solid;
+	border-color: rgb(132,209,136);
+	color:#eee;
+	width: 100px;
+	height:100px;
+	line-height: 100px;
+	text-align: center;
+}
+#num_input {
+	background:rgb(59,187,77);
+	border:1px solid;
+	border-color: rgb(132,209,136);
+	color:#eee;
+	width: 300px;
+	height:100px;
+	line-height: 100px;
+	text-align: center;
+	margin-left: 100px;
+	margin-top: -100px;
+	position: absolute;
+}
+#container {
+	flex-wrap: wrap;
+}
+#container input {
+	background:rgb(59,187,77);
+	border:1px solid;
+	border-color: rgb(132,209,136);
+	color:#eee;
+	width: 100px;
+	height:100px;
+	line-height: 100px;
+	text-align: center;
+	float:left;
+}
